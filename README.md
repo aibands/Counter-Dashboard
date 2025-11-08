@@ -10,11 +10,11 @@ App<br>
      └── Counter (2)<br>
 
 ## Component Explanation
-- App.js
+- App.js<br>
 App is the main entry of the project. It renders Dashboard component
 
-- Dashboard.js
+- Dashboard.js<br>
 Dashboard is the parent component that manages both counters’ values using React’s useState. Whenever a counter changes, the dashboard updates its internal state and keeps track of the total count from both counters and also includes a reset button to give users a quick way to set the counter to zero
 
-- Counter.js
+- Counter.js<br>
 Each counter is a child component that shows the current count and lets users increase or decrease. When a change happens, the counter sends that update back up to the Dashboard through the onCountChange function. And if the value resets to zero, the useEffect will clears the timestamp, making all the counts reset again.
