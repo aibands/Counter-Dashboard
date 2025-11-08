@@ -5,9 +5,9 @@ The purpose of this project is to practice React components, state management, a
 
 ## Component Structure
 App
-└── Dashboard
-     ├── Counter (1)
-     └── Counter (2)
+└── Dashboard<br>
+     ├── Counter (1)<br>
+     └── Counter (2)<br>
 
 ## Component Explanation
 - App.js
