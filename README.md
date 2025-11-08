@@ -4,7 +4,7 @@ This project is part of the Powerful Frontend Web Development subject assignment
 The purpose of this project is to practice React components, state management, and lifting state up concepts through a short, timed exercise using the React framework.
 
 ## Component Structure
-App
+App<br>
 └── Dashboard<br>
      ├── Counter (1)<br>
      └── Counter (2)<br>
